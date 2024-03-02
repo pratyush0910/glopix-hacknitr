@@ -14,7 +14,10 @@ module.exports = {
       },
       boxShadow:{
         '3xl':' 0 25px 50px rgb(63, 81, 181)'
-      }
+      },
+      fontFamily: {
+        navtxt: ["titlefont", "monospacce"],
+      },
     },
   },
   plugins: [],
