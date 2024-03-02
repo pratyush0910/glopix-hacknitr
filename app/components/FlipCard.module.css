@@ -1,0 +1,58 @@
+/* components/FlipCard.module.css */
+.flipCard {
+    display: flex;
+   margin-right: 10rem;
+    width: 19rem;
+    height: 25rem;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    cursor: pointer;
+  }
+  
+  .flipCard:hover {
+    transform: rotateY(0deg);
+  }
+  
+  .flipped {
+    transform: rotateY(180deg);
+  }
+  
+  .flipCardInner {
+    width: 100%;
+    height: 120%;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+  }
+  
+  .flipCard:hover .flipCardInner {
+    transform: rotateY(180deg);
+  }
+  
+  .flipped .flipCardInner {
+    transform: rotateY(0deg);
+  }
+  
+  .flipCardFront,
+  .flipCardBack {
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flipCardFront {
+   font-size: small;
+     
+  }
+  
+  .flipCardBack {
+   font-size: medium;
+    transform: rotateY(180deg);
+   
+  }
+  
+  

@@ -12,9 +12,15 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+<<<<<<< HEAD
       fontFamily: {
         navtxt: ["titlefont", "monospacce"],
       },
+=======
+      boxShadow:{
+        '3xl':' 0 25px 50px rgb(63, 81, 181)'
+      }
+>>>>>>> 6c1357640a3576c272eeccad4bf603dd17954f71
     },
   },
   plugins: [],
