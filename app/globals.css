@@ -2,11 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@Layer base{
-    @font-face {
-        font-family: "titlefont";
-        font-weight: 300;
-        src: url("/fonts/KodeMono-Regular.ttf") format("truetype");
-        font-display: swap;
-    }
+@layer base {
+  @font-face {
+    font-family: "titlefont";
+    font-weight: 300;
+    color: #07d6d1;
+    src: url("/fonts/KodeMono-Regular.ttf") format("truetype");
+    font-display: swap;
+  }
 }
