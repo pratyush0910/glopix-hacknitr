@@ -21,8 +21,8 @@ const items = [
           <span class="text-2xl ">&#9733;</span>
         </div>
         <div className="text-[12px] text-[#dbdbd9]">
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-          voluptatibus?"
+          &ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+          voluptatibus?&ldquo;
         </div>
       </div>
     </div>
@@ -44,8 +44,8 @@ const items = [
           <span class="text-2xl ">&#9733;</span>
         </div>
         <div className="text-[12px] text-[#dbdbd9]">
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-          voluptatibus?"
+          &ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+          voluptatibus?&ldquo;
         </div>
       </div>
     </div>
@@ -67,8 +67,8 @@ const items = [
           <span class="text-2xl ">&#9733;</span>
         </div>
         <div className="text-[12px] text-[#dbdbd9]">
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-          voluptatibus?"
+          &ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+          voluptatibus?&ldquo;
         </div>
       </div>
     </div>
@@ -97,8 +97,8 @@ const items = [
           <span class="text-2xl ">&#9733;</span>
         </div>
         <div className="text-[12px] text-[#dbdbd9]">
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-          voluptatibus?"
+          &ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+          voluptatibus?&ldquo;
         </div>
       </div>
     </div>{" "}
@@ -120,8 +120,8 @@ const items = [
           <span class="text-2xl ">&#9733;</span>
         </div>
         <div className="text-[12px] text-[#dbdbd9]">
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-          voluptatibus?"
+          &ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+          voluptatibus?&ldquo;
         </div>
       </div>
     </div>
@@ -143,8 +143,8 @@ const items = [
           <span class="text-2xl ">&#9733;</span>
         </div>
         <div className="text-[12px] text-[#dbdbd9]">
-          <span>"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-          voluptatibus?<span>"</span>
+        &ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+          voluptatibus?&ldquo;
         </div>
       </div>
     </div>

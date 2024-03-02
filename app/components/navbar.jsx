@@ -17,7 +17,7 @@ function Navbar() {
         <ul className="flex flex-[50%] justify-around">
           <li className="p-4 cursor-pointer hover:underline">HOME</li>
           <li className="p-4 cursor-pointer hover:underline">ABOUT</li>
-          <li className="p-2 m-3 cursor-pointer motion-safe:animate-bounce border-2 border-solid bg-indigo-700 rounded-lg font-bold flex justify-center items-center">
+          <li className="p-2 m-3 cursor-pointer border-2 border-solid bg-indigo-700 rounded-lg font-bold flex justify-center items-center">
             UPLOAD
             <FileUploadIcon />
           </li>
