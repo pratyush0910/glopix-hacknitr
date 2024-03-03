@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import Image from "next/image";
 import axios from "axios";
@@ -7,6 +7,8 @@ import axios from "axios";
 function Upload() {
   const [file, setFile] = useState();
   const [output, setOutput] = useState();
+  const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
+
   const onSubmit = (e) => {
     e.preventDefault();
     console.log(file);
@@ -50,6 +52,7 @@ function Upload() {
               alt="outputImage"
               height={400}
               width={400}
+              className="w-"
             />
           ) : (
             <div>Your Input Image Will Be Shown</div>
