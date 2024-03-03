@@ -12,7 +12,7 @@ const items = [
             alt=""
           />
         </div>
-        <h1 className="font-semibold mt-2">JHON DOE</h1>
+        <h1 className="font-semibold mt-2 text-center">JHON DOE</h1>
         <div className="flex items-center space-x-1 mt-2 justify-between">
           <span className="text-2xl text-[#a571ab]">&#9733;</span>
           <span className="text-2xl text-[#a571ab]">&#9733;</span>
@@ -35,7 +35,7 @@ const items = [
             alt=""
           />
         </div>
-        <h1 className="font-semibold mt-2">JHON DOE</h1>
+        <h1 className="font-semibold mt-2 text-center">JHON DOE</h1>
         <div className="flex items-center space-x-1 mt-2 justify-between">
           <span className="text-2xl text-[#a571ab]">&#9733;</span>
           <span className="text-2xl text-[#a571ab]">&#9733;</span>
@@ -58,7 +58,7 @@ const items = [
             alt=""
           />
         </div>
-        <h1 className="font-semibold mt-2">JHON DOE</h1>
+        <h1 className="font-semibold mt-2 text-center">JHON DOE</h1>
         <div className="flex items-center space-x-1 mt-2 justify-bewteen">
           <span className="text-2xl text-[#a571ab]">&#9733;</span>
           <span className="text-2xl text-[#a571ab]">&#9733;</span>
@@ -88,8 +88,8 @@ const items = [
             alt=""
           />
         </div>
-        <h1 className="font-semibold mt-2">JHON DOE</h1>
-        <div className="flex items-center space-x-1 mt-2 justify-between">
+        <h1 className="font-semibold mt-2 text-center ">JHON DOE</h1>
+        <div className="flex items-center space-x-1 mt-2  justify-between">
           <span className="text-2xl text-[#a571ab]">&#9733;</span>
           <span className="text-2xl text-[#a571ab]">&#9733;</span>
           <span className="text-2xl text-[#a571ab]">&#9733;</span>
@@ -111,7 +111,7 @@ const items = [
             alt=""
           />
         </div>
-        <h1 className="font-semibold mt-2">JHON DOE</h1>
+        <h1 className="font-semibold mt-2 text-center">JHON DOE</h1>
         <div className="flex items-center space-x-1 mt-2 justify-between">
           <span className="text-2xl text-[#a571ab]">&#9733;</span>
           <span className="text-2xl text-[#a571ab]">&#9733;</span>
@@ -134,7 +134,7 @@ const items = [
             alt=""
           />
         </div>
-        <h1 className="font-semibold mt-2">JHON DOE</h1>
+        <h1 className="font-semibold mt-2 text-center">JHON DOE</h1>
         <div className="flex items-center space-x-1 mt-2 justify-between">
           <span className="text-2xl text-[#a571ab]">&#9733;</span>
           <span className="text-2xl text-[#a571ab]">&#9733;</span>

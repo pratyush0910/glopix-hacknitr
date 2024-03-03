@@ -28,9 +28,9 @@ function Feedback() {
       });
   };
   return (
-    <div className=" bg-gray-800 text-white font-navtxt text-xl">
-      <div className="text-center text-4xl">FeedBack</div>
-      <form className="flex justify-center items-center flex-col">
+    <div className=" bg-gray-800 text-white  text-xl ">
+      <div className="text-center text-4xl mb-[3rem] h-2">FeedBack</div>
+      <form className="flex justify-center mb-[2rem] items-center flex-col text-[#a571ab]">
         <input
           type="text"
           name="name"
@@ -49,19 +49,21 @@ function Feedback() {
           onChange={(e) => setDescription(e.target.value)}
           value={description}
         />
-        <div className="text-white">
+        
+        <button className="mt-[3rem]  border-2 border-[#a571ab] bg-fuchsia-700 rounded-lg" type="submit" onClick={createFeed}>
+          Submit
+        </button>
+      </form> <div className="flex justify-center">
+      <div className="text-white">
           <Rating
             value={star}
             onChange={handleChange}
             precision={0.5}
             sx={{ color: "#a571ab", bgcolor:"white" }}
           />
+        </div></div>
         </div>
-        <button type="submit" onClick={createFeed}>
-          Submit
-        </button>
-      </form>
-    </div>
+    
   );
 }
 

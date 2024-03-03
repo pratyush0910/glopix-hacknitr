@@ -28,7 +28,7 @@ function Upload() {
       });
   };
   return (
-    <div className=" bg-gray-800 text-white font-navtxt text-lg">
+    <div className=" bg-gray-800 text-white text-lg">
       <form onSubmit={onSubmit} className="mx-2">
         <input
           type="file"
@@ -37,12 +37,12 @@ function Upload() {
         />
         <button
           type="submit"
-          className="border-2 border-solid rounded-xl p-1 bg-indigo-500 font-bold text-xl"
+          className="border-2 border-solid rounded-xl p-1 bg-[#a571ab] font-bold text-xl"
         >
           Upload Image
         </button>
       </form>
-      <div className="flex items-center bg-gray-800 text-white font-navtxt text-xl">
+      <div className="flex items-center bg-gray-800 text-white  text-xl">
         <div className="m-2 flex-[50%] flex justify-center items-center border-2 border-dotted h-96">
           {file ? (
             <Image
