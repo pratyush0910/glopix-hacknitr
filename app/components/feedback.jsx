@@ -21,10 +21,12 @@ function Feedback() {
       })
       .then((res) => {
         console.log(res);
+        alert("Review Submitted Succesfully")
         setRating(null);
       })
       .catch((error) => {
         console.log(error);
+        alert(error)
       });
   };
   return (
@@ -49,8 +51,7 @@ function Feedback() {
           onChange={(e) => setDescription(e.target.value)}
           value={description}
         />
-        
-        <button className="mt-[3rem]  border-2 border-[#a571ab] bg-fuchsia-700 rounded-lg" type="submit" onClick={createFeed}>
+         <button className="mt-[3rem]  border-2 border-[#a571ab] bg-fuchsia-700 rounded-lg" type="submit" onClick={createFeed}>
           Submit
         </button>
       </form> <div className="flex justify-center">

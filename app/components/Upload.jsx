@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import Image from "next/image";
 import axios from "axios";
+import {saveAs} from "file-saver"
 
 function Upload() {
   const [file, setFile] = useState();
@@ -27,6 +28,9 @@ function Upload() {
         console.log(error);
       });
   };
+  const downloadImg = () => {
+    saveAs(output,"image.png")
+  }
   return (
     <div className=" bg-gray-800 text-white text-lg">
       <form onSubmit={onSubmit} className="mx-2">
@@ -64,6 +68,8 @@ function Upload() {
           )}
         </div>
       </div>
+      {output && <button onClick={downloadImg} className="border-2 border-solid rounded-xl p-1 bg-[#a571ab] font-bold text-3xl w-full">Download Image</button>}
+      
     </div>
   );
 }
