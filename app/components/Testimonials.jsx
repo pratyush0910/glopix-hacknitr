@@ -13,12 +13,12 @@ const items = [
           />
         </div>
         <h1 className="font-semibold mt-2">JHON DOE</h1>
-        <div class="flex items-center space-x-1 mt-2 justify-between">
-          <span class="text-2xl text-[#a571ab]">&#9733;</span>
-          <span class="text-2xl text-[#a571ab]">&#9733;</span>
-          <span class="text-2xl text-[#a571ab]">&#9733;</span>
-          <span class="text-2xl text-[#a571ab]">&#9733;</span>
-          <span class="text-2xl ">&#9733;</span>
+        <div className="flex items-center space-x-1 mt-2 justify-between">
+          <span className="text-2xl text-[#a571ab]">&#9733;</span>
+          <span className="text-2xl text-[#a571ab]">&#9733;</span>
+          <span className="text-2xl text-[#a571ab]">&#9733;</span>
+          <span className="text-2xl text-[#a571ab]">&#9733;</span>
+          <span className="text-2xl ">&#9733;</span>
         </div>
         <div className="text-[12px] text-[#dbdbd9]">
           &ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
@@ -36,12 +36,12 @@ const items = [
           />
         </div>
         <h1 className="font-semibold mt-2">JHON DOE</h1>
-        <div class="flex items-center space-x-1 mt-2 justify-between">
-          <span class="text-2xl text-[#a571ab]">&#9733;</span>
-          <span class="text-2xl text-[#a571ab]">&#9733;</span>
-          <span class="text-2xl text-[#a571ab]">&#9733;</span>
-          <span class="text-2xl text-[#a571ab]">&#9733;</span>
-          <span class="text-2xl ">&#9733;</span>
+        <div className="flex items-center space-x-1 mt-2 justify-between">
+          <span className="text-2xl text-[#a571ab]">&#9733;</span>
+          <span className="text-2xl text-[#a571ab]">&#9733;</span>
+          <span className="text-2xl text-[#a571ab]">&#9733;</span>
+          <span className="text-2xl text-[#a571ab]">&#9733;</span>
+          <span className="text-2xl ">&#9733;</span>
         </div>
         <div className="text-[12px] text-[#dbdbd9]">
           &ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
@@ -59,12 +59,12 @@ const items = [
           />
         </div>
         <h1 className="font-semibold mt-2">JHON DOE</h1>
-        <div class="flex items-center space-x-1 mt-2 justify-bewteen">
-          <span class="text-2xl text-[#a571ab]">&#9733;</span>
-          <span class="text-2xl text-[#a571ab]">&#9733;</span>
-          <span class="text-2xl text-[#a571ab]">&#9733;</span>
-          <span class="text-2xl text-[#a571ab]">&#9733;</span>
-          <span class="text-2xl ">&#9733;</span>
+        <div className="flex items-center space-x-1 mt-2 justify-bewteen">
+          <span className="text-2xl text-[#a571ab]">&#9733;</span>
+          <span className="text-2xl text-[#a571ab]">&#9733;</span>
+          <span className="text-2xl text-[#a571ab]">&#9733;</span>
+          <span className="text-2xl text-[#a571ab]">&#9733;</span>
+          <span className="text-2xl ">&#9733;</span>
         </div>
         <div className="text-[12px] text-[#dbdbd9]">
           &ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
@@ -89,12 +89,12 @@ const items = [
           />
         </div>
         <h1 className="font-semibold mt-2">JHON DOE</h1>
-        <div class="flex items-center space-x-1 mt-2 justify-between">
-          <span class="text-2xl text-[#a571ab]">&#9733;</span>
-          <span class="text-2xl text-[#a571ab]">&#9733;</span>
-          <span class="text-2xl text-[#a571ab]">&#9733;</span>
-          <span class="text-2xl text-[#a571ab]">&#9733;</span>
-          <span class="text-2xl ">&#9733;</span>
+        <div className="flex items-center space-x-1 mt-2 justify-between">
+          <span className="text-2xl text-[#a571ab]">&#9733;</span>
+          <span className="text-2xl text-[#a571ab]">&#9733;</span>
+          <span className="text-2xl text-[#a571ab]">&#9733;</span>
+          <span className="text-2xl text-[#a571ab]">&#9733;</span>
+          <span className="text-2xl ">&#9733;</span>
         </div>
         <div className="text-[12px] text-[#dbdbd9]">
           &ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
@@ -112,12 +112,12 @@ const items = [
           />
         </div>
         <h1 className="font-semibold mt-2">JHON DOE</h1>
-        <div class="flex items-center space-x-1 mt-2 justify-between">
-          <span class="text-2xl text-[#a571ab]">&#9733;</span>
-          <span class="text-2xl text-[#a571ab]">&#9733;</span>
-          <span class="text-2xl text-[#a571ab]">&#9733;</span>
-          <span class="text-2xl text-[#a571ab]">&#9733;</span>
-          <span class="text-2xl ">&#9733;</span>
+        <div className="flex items-center space-x-1 mt-2 justify-between">
+          <span className="text-2xl text-[#a571ab]">&#9733;</span>
+          <span className="text-2xl text-[#a571ab]">&#9733;</span>
+          <span className="text-2xl text-[#a571ab]">&#9733;</span>
+          <span className="text-2xl text-[#a571ab]">&#9733;</span>
+          <span className="text-2xl ">&#9733;</span>
         </div>
         <div className="text-[12px] text-[#dbdbd9]">
           &ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
@@ -135,12 +135,12 @@ const items = [
           />
         </div>
         <h1 className="font-semibold mt-2">JHON DOE</h1>
-        <div class="flex items-center space-x-1 mt-2 justify-between">
-          <span class="text-2xl text-[#a571ab]">&#9733;</span>
-          <span class="text-2xl text-[#a571ab]">&#9733;</span>
-          <span class="text-2xl text-[#a571ab]">&#9733;</span>
-          <span class="text-2xl text-[#a571ab]">&#9733;</span>
-          <span class="text-2xl ">&#9733;</span>
+        <div className="flex items-center space-x-1 mt-2 justify-between">
+          <span className="text-2xl text-[#a571ab]">&#9733;</span>
+          <span className="text-2xl text-[#a571ab]">&#9733;</span>
+          <span className="text-2xl text-[#a571ab]">&#9733;</span>
+          <span className="text-2xl text-[#a571ab]">&#9733;</span>
+          <span className="text-2xl ">&#9733;</span>
         </div>
         <div className="text-[12px] text-[#dbdbd9]">
         &ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
